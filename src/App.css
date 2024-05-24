@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* navbar.css */
+
+.navbar {
+  background-color: #0F4C75; /* Dark grey background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  height: 70px;
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif; /* Elegant font for brand */
+  font-size: 1.2rem;
+  color: #BBE1FA; /* Light grey text color */
+  text-decoration: none;
+  line-height: 1.2;
+  margin-left: 20px;
+}
+
+.navbar-brand span {
+  display: block; /* Make spans block-level to stack them vertically */
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font for links */
+  font-size: 1.2rem;
+  color: #BBE1FA; /* Light grey text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #adb5bd; /* Medium grey color on hover */
+}
+
+.home-body{
+  width: 100%;
+  height: auto;
+}
+.header{
+  text-align: center;
+  margin-top: 10%;
+  color: #BBE1FA;
+}
+.paragraph{
+  text-align: center;
+  color: #BBE1FA;
+}
+
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: #BBE1FA;
+}
